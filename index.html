@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brendan Long — Developer &amp; Designer</title>
+  <meta name="description" content="Brendan Long: University of Pittsburgh student in Digital Narrative &amp; Interactive Design. Development projects, digital media design and work experience." />
+  <meta name="theme-color" content="#100B00" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script src="code.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#development">Skip to projects</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top">Brendan Long</a>
+    <nav aria-label="Primary">
+      <ul class="nav-list">
+        <li><a href="#development">Development</a></li>
+        <li><a href="#design">Design</a></li>
+        <li><a href="#experience">Experience</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ID + contact -->
+    <section class="hero" id="contact" aria-labelledby="hero-title">
+      <p class="eyebrow">Developer &amp; Designer · Pittsburgh, PA</p>
+      <h1 id="hero-title">Brendan Long</h1>
+      <p class="hero-sub">
+        Digital Narrative &amp; Interactive Design student at the University of
+        Pittsburgh (class of 2028), building websites, programs and visual
+        design work.
+      </p>
+
+      <ul class="contact-list" aria-label="Contact">
+        <li>
+          <span class="label">Email</span>
+          <a href="mailto:BFL11@pitt.edu">BFL11@pitt.edu</a>
+        </li>
+        <li>
+          <span class="label">Phone</span>
+          <a href="tel:+15708379595">570.837.9595</a>
+        </li>
+        <li>
+          <span class="label">GitHub</span>
+          <a href="https://github.com/Blong2005" rel="noopener">github.com/Blong2005</a>
+        </li>
+        <li>
+          <span class="label">Education</span>
+          <span>University of Pittsburgh · Dietrich School of Arts and Sciences</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Development (GitHub first) -->
+    <section id="development" class="gallery" aria-labelledby="dev-title">
+      <div class="section-head">
+        <h2 id="dev-title">Development</h2>
+        <span class="section-note">GitHub projects and coursework</span>
+      </div>
+      <ul id="dev-grid" class="grid">
+        <!-- Cards rendered from code.js -->
+      </ul>
+    </section>
+
+    <!-- Digital media -->
+    <section id="design" class="gallery" aria-labelledby="design-title">
+      <div class="section-head">
+        <h2 id="design-title">Digital Media</h2>
+        <span class="section-note">Select an image to view it full size</span>
+      </div>
+      <ul id="design-grid" class="grid">
+        <!-- Cards rendered from code.js -->
+      </ul>
+    </section>
+
+    <!-- Work experience (bottom) -->
+    <section id="experience" class="experience" aria-labelledby="exp-title">
+      <div class="section-head">
+        <h2 id="exp-title">Work Experience</h2>
+        <span class="section-note">Most recent first</span>
+      </div>
+      <ol id="exp-list" class="exp-list">
+        <!-- Jobs rendered from code.js -->
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> Brendan Long</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <!-- Lightbox for design images -->
+  <dialog id="lightbox" class="lightbox" aria-label="Image viewer">
+    <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+    <img id="lightbox-img" alt="" />
+    <p id="lightbox-caption" class="lightbox-caption"></p>
+  </dialog>
+</body>
+</html>
