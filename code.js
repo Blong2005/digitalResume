@@ -94,6 +94,16 @@ const designProjects = [
     alt: "Graphic titled 'Good Design' showing the Invincible #70 comic cover with callouts explaining contrast, repetition and alignment.",
     thumb: "linear-gradient(135deg, #a5cbc3 0%, #3b341f 100%)",
   },
+  {
+    title: "Short Film: Future Robot",
+    meta: ["Stop-Motion", "Video editing"],
+    description:
+      "A graphic analyzing the design elements of a piece of my choosing, the Invincible #70 cover, built in Adobe InDesign to get more comfortable with the software.",
+    tags: ["Animation", "Film", "editing", "iMovie"],
+    image: "screenSHOT.png",
+    alt: "Short Film",
+    thumb: "linear-gradient(135deg, #a5cbc3 0%, #3b341f 100%)",
+  },
 
 
 ];
