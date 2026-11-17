@@ -98,7 +98,7 @@ const designProjects = [
     title: "Short Film: Future Robot",
     meta: ["Stop-Motion", "Video editing"],
     description:
-      "A graphic analyzing the design elements of a piece of my choosing, the Invincible #70 cover, built in Adobe InDesign to get more comfortable with the software.",
+      "A submission for the Pitt Center for Creativity's One Minute Film Festival (2026). This short film combines stop-motion and live-action actors.",
     tags: ["Animation", "Film", "editing", "iMovie"],
     image: "screenSHOT.png",
     alt: "Short Film",
